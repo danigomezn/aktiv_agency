@@ -1,0 +1,50 @@
+<nav class="navbar bg-black navbar-light fixed-top nav2">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="assets/img/logoAktiv.png" alt="Logo" class="logo">
+    </a>
+    <div class="mr-auto d-flex"> 
+      <a class="nav-link active text-white mr-3" aria-current="page" href="http://localhost:4200/inicio">INICIO</a>
+      <a class="nav-link text-white mr-3" href="http://localhost:4200/artists">ARTISTAS</a>
+      <a class="nav-link text-white" href="http://localhost:4200/contact">CONTACTO</a>
+    </div>
+  </div>
+</nav>
+
+<div class="form-container">
+  <form (ngSubmit)="onSubmit()" class="form">
+    <p id="heading">Ingresa tus datos para ponernos en contacto contigo!</p>
+    <div class="field">
+      <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      </svg>
+      <input id="name" [(ngModel)]="formData.name" name="name" autocomplete="off" placeholder="Nombre y apellidos" class="input-field" type="text">
+    </div>
+    <div class="field">
+      <svg class="input-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+       
+      </svg>
+      <input id="email" [(ngModel)]="formData.email" name="email" autocomplete="off" placeholder="Correo eletronico" class="input-field" type="text">
+    </div>
+    <div class="field">
+      <label for="exampleFormControlTextarea1" class="form-label">¿En que te podemos ayudar?</label>
+      <textarea id="message" [(ngModel)]="formData.message" name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="btn">
+      <button type="submit" class="button2">Enviar</button>
+    </div>
+  </form>
+</div>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white py-3">
+    <div class="container">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">About</a></li>
+      </ul>
+      <p class="text-center">&copy; 2024 AKTIV AGENCY, Inc</p>
+    </div>
+  </footer>

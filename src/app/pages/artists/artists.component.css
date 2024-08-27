@@ -1,0 +1,142 @@
+/* Ajustes responsivos */
+@media (max-width: 1200px) {
+  .logo {
+      max-width: 25%;
+  }
+}
+
+@media (max-width: 992px) {
+  .logo {
+      max-width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+      max-width: 35%;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+      max-width: 40%;
+  }
+}
+
+.btn-silver {
+  color: #ffffff9d; /* Color del texto */
+  background-color: #c0c0c0; /* Color de fondo plateado */
+  border-color: #c0c0c0; /* Color del borde */
+  transition: background-color 0.3s ease; /* Efecto de transición al cambiar el color de fondo */
+}
+
+.btn-silver:hover {
+  background-color: #a6a6a6; /* Cambiar el color de fondo al pasar el mouse */
+}
+
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background: rgb(0, 0, 0);
+  box-shadow: 0 0 25px rgb(174, 203, 207);
+  margin-bottom: 100px;
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px rgb(255, 255, 255),
+              0 0 25px rgb(255, 255, 255),
+              0 0 50px rgb(0, 0, 0),
+              0 0 100px rgb(0, 0, 0);
+}
+
+/* Estilos para el contenedor de texto y logo */
+.text-container {
+  width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+/* Estilos para la imagen de fondo con texto encima */
+.image-with-text {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  height: 300px; /* Ajusta la altura según tus necesidades */
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover; /* Ajusta el tamaño para cubrir el contenedor */
+}
+
+/* Estilos para el texto encima de la imagen */
+.text-overlay {
+  position: absolute;
+  top: 50%; /* Coloca el texto en el centro vertical */
+  left: 50%; /* Coloca el texto en el centro horizontal */
+  transform: translate(-50%, -50%); /* Centra el texto */
+  color: white; /* Color del texto */
+  text-align: center; /* Alinea el texto al centro */
+  line-height: 2.5; /* Ajusta el espacio entre líneas */
+}
+
+/* Estilos para el logo en la parte inferior de la imagen */
+.logo2 {
+  max-width: 5%;
+  position: absolute;
+  bottom: 20px; /* Coloca el logo en la parte inferior */
+  left: 50%; /* Coloca el logo en el centro horizontal */
+  transform: translateX(-50%); /* Centra el logo horizontalmente */
+}
+
+.icons{
+  margin-right: 150px;
+}
+
+
+
+.scroll-effect {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+.scroll-effect.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+
+body {
+  background-image: url('src\assets\img\negroCelo.jpg');
+  background-size: cover; /* Para que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  /* Ajusta otros estilos según tus preferencias */
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta el tamaño del video para cubrir completamente el contenedor */
+  
+}
+h2{
+  font-size: 4rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 10%;
+  
+}

@@ -1,0 +1,214 @@
+/* Estilos generales */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-image: url('src/assets/img/negroCelo.jpg');
+  background-size: cover;
+  background-position: center;
+  font-size: 20px;
+}
+h3{
+  font-size: 200%;
+}
+
+/* Contenedor principal */
+.content {
+  text-align: center;
+  padding: 50px 20px; /* dispositivos móviles */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos para el texto */
+.text {
+  margin-top: 30px;
+  line-height: 2.6;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; 
+  font-size: 1.2em;
+}
+
+@media (max-width: 576px) {
+  .text {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1em;
+    width: 90%; 
+  }
+}
+
+/* Botones */
+.btn {
+  width: 140px;
+  height: 51px;
+  margin: 0.5em;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 0.625em;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  color: black;
+}
+
+.btn:after {
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+}
+
+.btn:hover:after {
+  transform: skewX(-45deg) scale(1, 1);
+}
+
+/* Contenedor de botones */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap; 
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Estilos para el logo */
+.logo {
+  max-width: 20%;
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  .logo {
+    max-width: 40%;
+  }
+}
+
+/* Estilos para los iconos */
+.iconos {
+  font-size: 3.5rem;
+  margin-top: 100px;
+  margin-bottom: 100px; 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icons {
+  font-size: 4rem;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+.icons:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 576px) {
+  .iconos {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .icons {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+}
+
+/* Línea horizontal decorativa */
+.linea-horizontal {
+  border-top: 4px solid white;
+  width: 20%;
+  margin: 20px auto;
+}
+
+@media (max-width: 576px) {
+  .linea-horizontal {
+    width: 50%;
+  }
+}
+
+/* Ajustes para la sección de imágenes */
+.fotojey {
+  margin-bottom: 150px;
+}
+
+/* Estilos para la imagen de fondo con texto encima */
+.image-with-text {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+}
+
+/* Estilos para el texto encima de la imagen */
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  line-height: 2.5;
+}
+
+/* Efecto de desplazamiento */
+.scroll-effect {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+.scroll-effect.visible {
+  opacity: 1;
+  transform: translateX(0);
+}

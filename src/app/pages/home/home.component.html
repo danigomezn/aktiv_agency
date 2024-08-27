@@ -1,0 +1,223 @@
+<body>
+
+  <!-- Logo Agencia y 3 txt -->
+  <nav class="navbar bg-black navbar-light fixed-top nav2">
+   <div class="container-fluid">
+     <a class="navbar-brand" href="#">
+       <img src="assets/img/logoAktiv.png" alt="Logo" class="logo">
+     </a>
+     <div class="mr-auto d-flex"> <!-- Alinea los elementos a la izquierda y los convierte en un contenedor flexible -->
+       <a class="nav-link active text-white mr-3" aria-current="page" href="http://localhost:4200/home" style="margin-right: 30px;">INICIO</a>
+       <a class="nav-link text-white mr-3" href="http://localhost:4200/artists" style="margin-right: 30px;">ARTISTAS</a>
+       <a class="nav-link text-white" href="http://localhost:4200/contact">CONTACTO</a>
+     </div>
+   </div>
+ </nav>
+
+ <!-- Video y Texto -->
+ <div style="position: relative;">
+   <video oncanplay="this.play()" onloadedmetadata="this.muted=true" loop="true">
+     <source src="assets/img/INICIO_VIDEO.mp4" type="video/mp4">
+     Tu navegador no soporta el elemento de video.
+   </video>
+   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; font-size: 24px;">
+      <!--<h2>AGENCIA DE DJs EN ESPAÑA</h2>-->
+   </div>
+ </div>
+     <div class="shadow-below">
+         <!-- Aquí añade tu imagen -->
+ </div>
+
+<!-- Quienes Somos y Texto -->
+<div class="content">
+  <h2>QUIENES SOMOS</h2>
+  <p class="text">
+    Somos una agencia de jóvenes talentos de Valencia que comenzó sus andadas en el mundo de la representación artística en 2016 con un Dj y cada año la familia ha ido creciendo hasta la gran familia que somos a día hoy. En nuestra ciudad estamos trabajar con todos los grandes locales, clubs, terrazas de veranos, empresas de eventos y restaurantes con espectáculo de calibre internacional como Salvaje o Tatel, nuestros artistas han hecho bailar a miles de personas en grandes festivales y conciertos de artistas internacionales de todo tipo. Estamos orgullosos de que nuestros artistas hayan podido hacer disfrutar con su música a muchísima gente en las ciudades más importantes de la península, Baleares y Canarias y en países como Francia, Suiza, Holanda, EE.UU.
+  </p>
+</div>
+
+<!-- Artistas y texto -->
+<!-- DANIGO -->
+
+<div class="container text-center mt-5">
+ <h2 class="text-white mb-5">ARTISTAS</h2>
+ <div class="row justify-content-center align-items-center">
+   <div class="col-md-6">
+     <video src="assets/img/DANIGO.mp4" type="video/mp4" class="img-fluid scroll-effect" #scrollEffect autoplay loop> </video>
+   </div>
+   <div *ngIf="djs[0]" class="col-md-6 text-white">
+     <h3>{{djs[0].name}}</h3>
+     <p style=" margin: 10px 50px; line-height: 2.5;">{{djs[0].description}} <br>
+     <em><strong>GENEROS:</strong></em> <em> {{djs[0].genre}}</em></p>
+      
+     <!-- Agregar los botones aquí -->
+     <div class="button-container">
+       <button onclick="window.open('https://www.instagram.com/danigomusic/', '_blank')" class="btn btn-primary mx-2"> INSTAGRAM </button>
+       <button onclick="window.open('https://drive.google.com/drive/folders/1-gZWhQKzOsDmN06cYUu6AaSHEyjEIpWX/', '_blank')"class="btn btn-primary mx-2"> PRESS KIT </button>
+     </div>
+   </div>
+ </div>
+</div>
+
+<!-- DANY MARIN -->
+
+<div class="container text-center mt-5">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-md-6">
+      <video src="assets/img/DANY MARIN.mp4" type="video/mp4" class="img-fluid scroll-effect" #scrollEffect autoplay loop> </video>
+    </div>
+    <div *ngIf="djs[1]" class="col-md-6 text-white">
+      <h3>{{djs[1].name}}</h3>
+      <p style=" margin: 10px 50px; line-height: 2.5;">{{djs[1].description}} <br>
+      <em><strong>GENEROS:</strong></em> <em> {{djs[1].genre}}</em></p>
+       
+      <!-- Agregar los botones aquí -->
+      <div class="button-container">
+        <button onclick="window.open('https://www.instagram.com/danigomusic/', '_blank')" class="btn btn-primary mx-2"> INSTAGRAM </button>
+        <button onclick="window.open('https://drive.google.com/drive/folders/1-gZWhQKzOsDmN06cYUu6AaSHEyjEIpWX/', '_blank')"class="btn btn-primary mx-2"> PRESS KIT </button>
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <!-- MONRA -->
+
+<div class="container text-center mt-5">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-md-6">
+      <video src="assets/img/MONRA.mp4" type="video/mp4" class="img-fluid scroll-effect" #scrollEffect autoplay loop> </video>
+    </div>
+    <div *ngIf="djs[2]" class="col-md-6 text-white">
+      <h3>{{djs[2].name}}</h3>
+      <p style=" margin: 10px 50px; line-height: 2.5;">{{djs[2].description}} <br>
+      <em><strong>GENEROS:</strong></em> <em> {{djs[2].genre}}</em></p>
+       
+      <!-- Agregar los botones aquí -->
+      <div class="button-container">
+        <button onclick="window.open('https://www.instagram.com/danigomusic/', '_blank')" class="btn btn-primary mx-2"> INSTAGRAM </button>
+        <button onclick="window.open('https://drive.google.com/drive/folders/1-gZWhQKzOsDmN06cYUu6AaSHEyjEIpWX/', '_blank')"class="btn btn-primary mx-2"> PRESS KIT </button>
+      </div>
+    </div>
+  </div>
+ </div>
+
+
+
+
+<!-- RUBEN DIEGUEZ -->
+<div class="container text-center mt-5">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-md-6">
+      <video src="assets/img/RUBEN DIEGUEZ.mp4" type="video/mp4" class="img-fluid scroll-effect" #scrollEffect autoplay loop> </video>
+    </div>
+    <div *ngIf="djs[3]" class="col-md-6 text-white">
+      <h3>{{djs[3].name}}</h3>
+      <p style=" margin: 10px 50px; line-height: 2.5;">{{djs[3].description}} <br>
+      <em><strong>GENEROS:</strong></em> <em> {{djs[3].genre}}</em></p>
+       
+      <!-- Agregar los botones aquí -->
+      <div class="button-container">
+        <button onclick="window.open('https://www.instagram.com/danigomusic/', '_blank')" class="btn btn-primary mx-2"> INSTAGRAM </button>
+        <button onclick="window.open('https://drive.google.com/drive/folders/1-gZWhQKzOsDmN06cYUu6AaSHEyjEIpWX/', '_blank')"class="btn btn-primary mx-2"> PRESS KIT </button>
+      </div>
+    </div>
+  </div>
+ </div>
+
+
+<!-- PARIS -->
+<div class="container text-center mt-5">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-md-6">
+      <video src="assets/img/PARIS.mp4" type="video/mp4" class="img-fluid scroll-effect" #scrollEffect autoplay loop> </video>
+    </div>
+    <div *ngIf="djs[4]" class="col-md-6 text-white">
+      <h3>{{djs[4].name}}</h3>
+      <p style=" margin: 10px 50px; line-height: 2.5;">{{djs[4].description}} <br>
+      <em><strong>GENEROS:</strong></em> <em> {{djs[4].genre}}</em></p>
+       
+      <!-- Agregar los botones aquí -->
+      <div class="button-container">
+        <button onclick="window.open('https://www.instagram.com/danigomusic/', '_blank')" class="btn btn-primary mx-2"> INSTAGRAM </button>
+        <button onclick="window.open('https://drive.google.com/drive/folders/1-gZWhQKzOsDmN06cYUu6AaSHEyjEIpWX/', '_blank')"class="btn btn-primary mx-2"> PRESS KIT </button>
+      </div>
+    </div>
+  </div>
+ </div>
+
+
+ <!-- ISMA GARRIDO -->
+ <div class="container text-center mt-5">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-md-6">
+      <video src="assets/img/ISMA GARRIDO.mp4" type="video/mp4" class="img-fluid scroll-effect" #scrollEffect autoplay loop> </video>
+    </div>
+    <div *ngIf="djs[5]" class="col-md-6 text-white">
+      <h3>{{djs[5].name}}</h3>
+      <p style=" margin: 10px 50px; line-height: 2.5;">{{djs[5].description}} <br>
+      <em><strong>GENEROS:</strong></em> <em> {{djs[5].genre}}</em></p>
+       
+      <!-- Agregar los botones aquí -->
+      <div class="button-container">
+        <button onclick="window.open('https://www.instagram.com/danigomusic/', '_blank')" class="btn btn-primary mx-2"> INSTAGRAM </button>
+        <button onclick="window.open('https://drive.google.com/drive/folders/1-gZWhQKzOsDmN06cYUu6AaSHEyjEIpWX/', '_blank')"class="btn btn-primary mx-2"> PRESS KIT </button>
+      </div>
+    </div>
+  </div>
+ </div>
+
+  <!-- JEEY B -->
+  <div class="container text-center mt-5">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-6">
+        <video src="assets/img/JEEYB.mp4" type="video/mp4" class="img-fluid scroll-effect" #scrollEffect autoplay loop> </video>
+      </div>
+      <div *ngIf="djs[6]" class="col-md-6 text-white">
+        <h3>{{djs[6].name}}</h3>
+        <p style=" margin: 10px 50px; line-height: 2.5;">{{djs[6].description}} <br>
+        <em><strong>GENEROS:</strong></em> <em> {{djs[6].genre}}</em></p>
+         
+        <!-- Agregar los botones aquí -->
+        <div class="button-container">
+          <button onclick="window.open('https://www.instagram.com/danigomusic/', '_blank')" class="btn btn-primary mx-2"> INSTAGRAM </button>
+          <button onclick="window.open('https://drive.google.com/drive/folders/1-gZWhQKzOsDmN06cYUu6AaSHEyjEIpWX/', '_blank')"class="btn btn-primary mx-2"> PRESS KIT </button>
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+<!-- Redes Sociales y Logos -->
+<div class="container text-center mt-5">
+ <h2 class="text-center">SOCIAL MEDIA</h2>
+ <hr class="linea-horizontal">
+ <div class="iconos">
+   <a href="https://facebook.com/tucuenta" target="_blank" class="icons"><i class="bi bi-facebook"></i></a>
+   <a href="https://instagram.com/aktiv_agency_/" target="_blank" class="icons"><i class="bi bi-instagram"></i></a>
+   <a href="https://web.whatsapp.com/" target="_blank" class="icons"><i class="bi bi-whatsapp"></i></a>
+ </div>
+</div>
+
+<!-- Contacto y Logo -->
+<div class="container-fluid text-container">
+ <div class="image-with-text" style="background-image: url('assets/img/negro.jpg');">
+   <p class="text-overlay">Mussa <br> 653 36 34 89 <br> España - Valencia <br> aktivagency@gmail.com</p>
+ </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-black text-white py-3">
+ <div class="container">
+   <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+     <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
+     <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Features</a></li>
+     <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+     <li class="nav-item"><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+     <li class="nav-item"><a href="#" class="nav-link px-2 text-white">About</a></li>
+   </ul>
+   <p class="text-center">&copy; 2024 AKTIV AGENCY, Inc</p>
+ </div>
+</footer>
+
+   <script src="scripts.js"></script>
+</body>

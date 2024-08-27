@@ -1,0 +1,205 @@
+  <!-- Logo Agencia y 3 txt -->
+   <nav class="navbar bg-black navbar-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/logoAktiv.png" alt="Logo" class="logo">
+      </a>
+      <div class="mr-auto d-flex"> <!-- Alinea los elementos a la izquierda y los convierte en un contenedor flexible -->
+        <a class="nav-link active text-white mr-3" aria-current="page" href="#" style="margin-right: 30px;">QUÍENES SOMOS</a>
+        <a class="nav-link text-white mr-3" href="artistas.html" style="margin-right: 30px;">ARTISTAS</a>
+        <a class="nav-link text-white" href="#">CONTACTO</a>
+      </div>
+    </div>
+  </nav>
+  
+
+   <!-- Video y Texto -->
+  <div style="position: relative;">
+    <video autoplay muted loop>
+      <source src="assets/img/INICIO_VIDEO.mp4" type="video/mp4">
+      Tu navegador no soporta el elemento de video.
+    </video>
+    <div  style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; font-size: 24px;">
+      <!-- <h2>AGENCIA DE DJs EN ESPAÑA</h2> -->
+    </div>
+  </div>
+
+<!-- Quienes Somos y Texto -->
+  <div style="text-align: center; color: white; padding:  150px 300px;">
+    <h2>QUIENES SOMOS</h2>
+    <p style="margin: 20px 200px; line-height: 2.5;">AKTIV AGENCY nace en 2010 para dar soporte a todos aquellos promotores y eventos donde se requieran los servicios de contratación de un artista, principalmente a Djs.
+
+      En 2023 se convirtió en la agencia lider de contratación de Djs en España.
+      
+      Actualmente contamos con más de 14 paises en todo el mundo donde hemos trabajado con nuestros artistas en numerosos eventos. Desde un primer momento hemos cuidado al detalle toda relación existente con cada uno de nuestros clientes con el fin de poder afianzar una larga trayectoria profesional en conjunto. Ofrecemos a su vez un servicio interno de BOOKING & MANAGEMENT con nuestros artistas, los cuales están plenamente cualificados para estar a la altura de los eventos más exigentes del momento. Por ello nos encontramos siempre en una continua renovación y actualización de nuestro equipo</p>
+  </div>
+
+<!-- Artistas y texto -->
+<!-- DANIGO -->
+<div class="container text-center mt-5">
+  <h2 class="text-white mb-5">ARTISTAS</h2>
+  <div class="row justify-content-center align-items-center">
+    <div class="col-md-6">
+      <img src="assets/img/DANIGO.png" alt="Imagen" class="img-fluid">
+    </div>
+    <div class="col-md-6 text-white">
+      <h3>DANIGO</h3>
+      <p style=" margin: 10px 50px; line-height: 2.5;">Se caracteriza por sus espectáculos enérgicos y la conexión que
+        logra con el público.
+        Desde que tenía 10 años comenzó su pasión por la música y ha tocado en
+        los mejores clubs de Valencia donde reside actualmente, así como tambien tuvo una gira en Flordida (MIAMI) ha compartido cabina
+        con artistas internacionales. <br>
+      <em><strong>GENEROS:</strong></em> <em> REGGAETON - COMERCIAL - URBANO - AFROEBEAT - AFRO HOUSE - TECH HOUSE - HARD TECHNO</em></p>
+       
+      <!-- Agregar los botones aquí -->
+      <div>
+        <a href="https://www.instagram.com/danigomusic/" class="btn btn-primary mx-2 btn-silver" target="_blank">INSTAGRAM</a>
+        <a href="https://drive.google.com/drive/folders/1-gZWhQKzOsDmN06cYUu6AaSHEyjEIpWX" class="btn btn-secondary mx-2 btn-silver" target="_blank">PRESS KIT</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DANY MARIN -->
+<div class="container text-center mt-5">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-md-6">
+      <img src="assets/img/DANY MARIN.png" alt="Imagen" class="img-fluid">
+    </div>
+    <div class="col-md-6 text-white">
+      <h3>DANY MARIN</h3>
+      <p style=" margin: 10px 50px; line-height: 2.5;">Procedente de Medellin (Colombia). A sus 13
+        años comienza sus andaduras a los platos. siempre se ha sentido atraído por la música y
+        es su gran pasión, se considera una persona soñadora, luchadora , muy emocional y creativa, que va en sintonía y evolución con la música y siempre da lo mejor de sí en sus sesiones.
+        Además de su pasión como DJ, Dany Marín da sus primeros pasos como productor con la elaboración de Mashups y Remixes, faceta que expresa la ambición y proyección en busca de una constante evolución y
+        crecimiento en el mundo de la música <br>
+      <em><strong>GENEROS:</strong></em> <em> REGGAETON - TRAP - R&B - AFROEBEAT - MOOMBAHTON - AFRO HOUSE - TECH HOUSE</em></p>
+      <!-- Agregar los botones aquí -->
+      <div>
+        <a href="https://www.instagram.com/danigomusic/" class="btn btn-primary mx-2 btn-silver" target="_blank">INSTAGRAM</a>
+        <a href="https://drive.google.com/drive/folders/1-gZWhQKzOsDmN06cYUu6AaSHEyjEIpWX" class="btn btn-secondary mx-2 btn-silver" target="_blank">PRESS KIT</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MONRA -->
+<div class="container text-center mt-5">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-md-6">
+      <img src="assets/img/MONRA.png" alt="Imagen" class="img-fluid">
+    </div>
+    <div class="col-md-6 text-white">
+      <h3>MONRA</h3>
+      <p style=" margin: 10px 50px; line-height: 2.5;">Conocido como Monra, hasta ahora en su breve pero destacada trayectoria profesional como DJ, está abriéndose camino a pasos agigantados en el panorama nocturno de Valencia. Dándose a conocer y dejando muy buen sabor de boca allá por donde pasa.
+        A finales de 2022 firmó contrato con AktivAgency lo cual le supuso un gran salto en su carrera y le permite seguir escalando puestos...
+        ¿Dónde estará su limite? <br>
+      <em><strong>GENEROS:</strong></em> <em> URBANO - AFRO HOUSE - TECH HOUSE - TRIBAL - GUARACHA - CIRCUIT </em></p>
+      <!-- Agregar los botones aquí -->
+      <div>
+        <a href="https://www.instagram.com/danigomusic/" class="btn btn-primary mx-2 btn-silver" target="_blank">INSTAGRAM</a>
+        <a href="https://drive.google.com/drive/folders/1-gZWhQKzOsDmN06cYUu6AaSHEyjEIpWX" class="btn btn-secondary mx-2 btn-silver" target="_blank">PRESS KIT</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RUBEN DIEGUEZ -->
+<div class="container text-center mt-5">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-md-6">
+      <img src="assets/img/RUEN DIEGUEZ.png" alt="Imagen" class="img-fluid">
+    </div>
+    <div class="col-md-6 text-white">
+      <h3>RUBEN DIEGUEZ</h3>
+      <p style=" margin: 10px 50px; line-height: 2.5;">Es un Dj, productor musical y locutor de radio, además de diseñador gráfico, el cuál se ha encargado del diseño de importantes portadas de discos (una de ellas disco de oro), así como carteles, flyers, creación y edición de vídeo y fotografia, animación 4D y todo lo relacionado con comunicación audiovisual.
+        Su afición por la música empezó a muy temprana edad, comenzando su carrera de Dj a los 11 años pinchando en salas y discotecas de Córdoba, y la de productor musical a los 14 años, convirtiéndose en poco tiempo en una de las jóvenes promesas del sector valenciano. Su trayectoria le ha llevado a recorrer gran parte de la geografía desde sus inicios como Dj en varias discotecas de España.
+        <br>
+      <em><strong>GENEROS:</strong></em> <em> URBAN LATIN HITS - REGGAETON - URBANTECH - HIP HOP - DANCEHALL - RAP </em></p>
+      <!-- Agregar los botones aquí -->
+      <div>
+        <a href="https://www.instagram.com/danigomusic/" class="btn btn-primary mx-2 btn-silver" target="_blank">INSTAGRAM</a>
+        <a href="https://drive.google.com/drive/folders/1-gZWhQKzOsDmN06cYUu6AaSHEyjEIpWX" class="btn btn-secondary mx-2 btn-silver" target="_blank">PRESS KIT</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PARIS -->
+<div class="container text-center mt-5">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-md-6">
+      <img src="assets/img/PARIS.png" alt="Imagen" class="img-fluid">
+    </div>
+    <div class="col-md-6 text-white">
+      <h3>PARIS</h3>
+      <p style=" margin: 10px 50px; line-height: 2.5;">Tras viajar continentes, adaptarse a culturas caribeña, sud americana & europea, PARIS DJ aprendió con el tiempo en hacer que la pista nunca deje de bailar. abrió conciertos en club de francia para Naza, Maitre Gims, Marwa Loud, Dj Mike one. Luego se instalo a Valencia en 2019, colaborando en su primer año con Caribbeans Avenue. Desde entonces, se le abrieron la puertas de grandes club de Valencia como Indiana, la Sala Madison, Dady’O, Upper Club, Mya. <br>
+      <em><strong>GENEROS:</strong></em> <em> URBANO - COMERCIAL - HIP HOP - AFROBEATS - DANCEHALL</em></p>
+      <!-- Agregar los botones aquí -->
+      <div>
+        <a href="https://www.instagram.com/danigomusic/" class="btn btn-primary mx-2 btn-silver" target="_blank">INSTAGRAM</a>
+        <a href="https://drive.google.com/drive/folders/1-gZWhQKzOsDmN06cYUu6AaSHEyjEIpWX" class="btn btn-secondary mx-2 btn-silver" target="_blank">PRESS KIT</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ISMA GARRIDO -->
+<div class="container text-center mt-5">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-md-6">
+      <img src="assets/img/ISMA.png" alt="Imagen" class="img-fluid">
+    </div>
+    <div class="col-md-6 text-white">
+      <h3>ISMA GARRIDO</h3>
+      <p style=" margin: 10px 50px; line-height: 2.5;"> Más conocido por su nombre artístico ISMAGARRIDO, es un DJ valenciano  que ha  ha destacado por su habilidad para mezclar house, reguetón y pop, creando sets vibrantes y memorables. Destaca por su versatilidad adaptándose a todo tipo de públicos y garantizando siempre una pista de baile llena de energía.
+
+        También es conocido por su habilidad para crear una atmósfera única en sus actuaciones en vivo, donde combina una selección de pistas cautivadoras con una energía contagiosa que mantiene a la multitud en constante movimiento. <br>
+      <em><strong>GENEROS:</strong></em> <em> REGGAETON - AFRO HOUSE - HOUSE - POP </em></p>
+      <!-- Agregar los botones aquí -->
+      <div>
+        <a href="https://www.instagram.com/danigomusic/" class="btn btn-primary mx-2 btn-silver" target="_blank">INSTAGRAM</a>
+        <a href="https://drive.google.com/drive/folders/1-gZWhQKzOsDmN06cYUu6AaSHEyjEIpWX" class="btn btn-secondary mx-2 btn-silver" target="_blank">PRESS KIT</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JEEY B -->
+<div class="container text-center mt-5">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-md-6">
+      <img src="assets/img/JEEYB.png" alt="Imagen" class="img-fluid">
+    </div>
+    <div class="col-md-6 text-white">
+      <h3>JEEY B</h3>
+      <p style=" margin: 10px 50px; line-height: 2.5;"> Su nombre es Razvan, también conocido como JeeyB.
+        Nací el 27 de enero de 1998 en Rumania, a los 7 años me mude a España donde resido actualmente.
+        A los 16 años empecé en el sector audiovisual y como DJ. <br>
+      <em><strong>GENEROS:</strong></em> <em> COMERCIAL - URBANO - TECH HOUSE - TECHNO </em></p>
+      <!-- Agregar los botones aquí -->
+      <div>
+        <a href="https://www.instagram.com/danigomusic/" class="btn btn-primary mx-2 btn-silver" target="_blank">INSTAGRAM</a>
+        <a href="https://drive.google.com/drive/folders/1-gZWhQKzOsDmN06cYUu6AaSHEyjEIpWX" class="btn btn-secondary mx-2 btn-silver" target="_blank">PRESS KIT</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<div class="b-example-divider"></div>
+
+<footer class="bg-black text-white py-3">
+  <div class="container">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-white">About</a></li>
+    </ul>
+    <p class="text-center">&copy; 2024 AKTIV AGENCY, Inc</p>
+  </div>
+</footer>

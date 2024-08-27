@@ -1,0 +1,39 @@
+body {
+  background-image: url('src\assets\img\negroCelo.jpg');
+  background-color: black;
+  background-size: cover; /* Para que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  /* Ajusta otros estilos según tus preferencias */
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.active2{
+color: aliceblue;
+}
+/* logo Aktiv del Nav */
+.logo {
+  max-width: 20%; /* El logo nunca será más grande que su contenedor */
+  height: auto; /* Mantiene la proporción */
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta el tamaño del video para cubrir completamente el contenedor */
+  
+}
+
+.btn-silver {
+  color: #ffffff9d; /* Color del texto */
+  background-color: #c0c0c0; /* Color de fondo plateado */
+  border-color: #c0c0c0; /* Color del borde */
+  transition: background-color 0.3s ease; /* Efecto de transición al cambiar el color de fondo */
+}
+
+.btn-silver:hover {
+  background-color: #a6a6a6; /* Cambiar el color de fondo al pasar el mouse */
+}

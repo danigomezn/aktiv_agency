@@ -1,0 +1,10 @@
+ 
+tener descargado la libreria
+pip install flask
+pip install flask-cors
+
+api- Djs
+bd - submit
+
+
+curl http://localhost:5000/import-to-mongodb
